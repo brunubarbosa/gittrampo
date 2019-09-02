@@ -1,9 +1,11 @@
 import React from 'react';
 
-const App: React.FC = () => {
+import Home from './components/Home/index';
+
+function App() {
   return (
     <div className="App">
-      a
+      <Home />
     </div>
   );
 }
